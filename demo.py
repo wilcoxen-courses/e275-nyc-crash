@@ -14,7 +14,7 @@ import sys
 #  Check whether the database has been downloaded.
 #
 
-eia_file = 'eia860.db'
+eia_file = 'demo.db'
 
 if not os.path.exists(eia_file):
     print('\nNeed to download eia860.db to run the remainder of the script')
