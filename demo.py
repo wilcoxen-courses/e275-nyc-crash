@@ -17,7 +17,7 @@ import sys
 eia_file = 'demo.db'
 
 if not os.path.exists(eia_file):
-    print('\nNeed to download eia860.db to run the remainder of the script')
+    print('\nNeed to download demo.db to run the remainder of the script')
     sys.exit()
 
 #
